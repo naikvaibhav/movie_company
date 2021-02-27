@@ -150,13 +150,14 @@ const Home = () => {
         setFilterTabClicked(false)
         if(searchValue == ''){
             setSearchedMovieList([])
+            setMovieCount(movieList.length)
             return true
         }
         const tempCollection = movieList.filter(movie => movie.title.toLowerCase().includes(searchValue))
         setSearchedMovieList([...tempCollection])
         setMovieCount(tempCollection.length)
     }
-    
+
     const selectGenre = (genreSelected) => {
         setActiveGenre(genreSelected)
         setSearchedMovieList([])
