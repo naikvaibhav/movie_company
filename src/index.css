@@ -64,6 +64,7 @@ main {
   color: #b8babd;
 }
 
+/*used to make the searc icon responsive on smaller screen*/
 .searchContainer {
   display: inline-flex;
   flex: 1 1;
