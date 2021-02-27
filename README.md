@@ -1,3 +1,11 @@
+## View the project on the below link
+http://moviecompany.naikvaibhav.online/
+
+## Steps to run the project
+1. Clone the project on local system.
+2. Download the dependency package using npm install inside the movie_company folder
+3. Run the project using the cmd "npm start" inside the movie_company folder
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
